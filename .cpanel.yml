@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/irlkbsz3u1sk/public_html/
-    - /bin/cp -R /home/irlkbsz3u1sk/repositories/leapupscale-website $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
