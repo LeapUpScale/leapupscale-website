@@ -1,11 +1,13 @@
-import Image from "next/image";
-import kaid from "../../public/Kaid.png";
+import BentoGrid from "./bento-grid";
+import Hero from "./hero";
+import Testimonials from "./testimonials";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home - LeapUpScale</h1>
-      <Image src={kaid} alt=""></Image>
+      <Hero />
+      <Testimonials />
+      <BentoGrid />
     </div>
   );
 }
