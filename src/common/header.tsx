@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
   Dialog,
   DialogPanel,
@@ -13,6 +12,11 @@ import {
   PopoverPanel,
 } from "@headlessui/react";
 import {
+  ChevronDownIcon,
+  PhoneIcon,
+  PlayCircleIcon,
+} from "@heroicons/react/20/solid";
+import {
   ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
@@ -21,12 +25,9 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 const products = [
   {
     name: "Analytics",
@@ -74,10 +75,10 @@ export default function Header() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image alt="" src="/logo.png" width={200} height={64} />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -152,9 +153,12 @@ export default function Header() {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Marketplace
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link
+            href="/aboutus"
+            className="text-sm/6 font-semibold text-gray-900"
+          >
             Company
-          </a>
+          </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
