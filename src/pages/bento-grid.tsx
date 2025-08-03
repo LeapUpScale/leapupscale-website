@@ -14,12 +14,12 @@ export default function BentoGrid() {
             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
               <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                  We'll take care of the frustrating tasks.
+                  We&apos;ll take care of the frustrating tasks.
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                   Let us shoulder those overwhelming, soul-draining tasks for
                   you, so you can breathe freely and focus on what truly
-                  matters. We've got your back every step of the way.
+                  matters. We&apos;ve got your back every step of the way.
                 </p>
               </div>
               <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
@@ -86,8 +86,8 @@ export default function BentoGrid() {
                   Stop wasting resources.
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Don't continue to waste your precious resources—cherish and
-                  use them wisely before it's too late!
+                  Don&apos;t continue to waste your precious resources—cherish
+                  and use them wisely before it&apos;s too late!
                 </p>
               </div>
               <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
