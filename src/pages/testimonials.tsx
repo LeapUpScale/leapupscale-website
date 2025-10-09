@@ -24,7 +24,7 @@ export default function Testimonials() {
           <figcaption className="mt-10">
             <Image
               alt=""
-              src="/human-resources-director-of-eze-frame.png"
+              src="/Valkyrie.png"
               className="mx-auto size-32 rounded-full"
               width={128}
               height={128}

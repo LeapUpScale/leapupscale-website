@@ -1,3 +1,11 @@
+import HeroSection from "./hero.section";
+import TeamSection from "./team.section";
+
 export default function AboutUs() {
-  return <h1>Coming Soon...</h1>;
+  return (
+    <>
+      <HeroSection />
+      <TeamSection />
+    </>
+  );
 }
